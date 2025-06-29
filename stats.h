@@ -33,11 +33,11 @@
  * as output.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input
+ * @param len Size of the given array as input
  *
  * @return The maximum value of the array
  */
-int find_maximum(unsigned char test[],int SIZE);
+int find_maximum(unsigned char test[],int len);
 
 /**
  * @brief Finds the minimum number in given array
@@ -47,11 +47,11 @@ int find_maximum(unsigned char test[],int SIZE);
  * as output.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input
+ * @param len Size of the given array as input
  *
  * @return The minimum value of the array
  */
-int find_minimum(unsigned char test[],int SIZE);
+int find_minimum(unsigned char test[],int len);
 
 /**
  * @brief Finds the mean of all number in given array
@@ -61,11 +61,11 @@ int find_minimum(unsigned char test[],int SIZE);
  * array, given as output.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input 
+ * @param len Size of the given array as input 
  *
  * @return The mean value of the array
  */
-int find_mean(unsigned char test[],int SIZE);
+int find_mean(unsigned char test[],int len);
 
 /**
  * @brief Sorts all number in given array in descending order
@@ -75,11 +75,11 @@ int find_mean(unsigned char test[],int SIZE);
  * descending order.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input
+ * @param len Size of the given array as input
  *
  * @return --
  */
-int sort_array(unsigned char test[],int SIZE);
+int sort_array(unsigned char test[],int len);
 
 /**
  * @brief Finds the median of all number data in given array
@@ -89,11 +89,11 @@ int sort_array(unsigned char test[],int SIZE);
  * array, given as output.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input
+ * @param len Size of the given array as input
  *
  * @return The median value of the array
  */
-int find_median(unsigned char test[],int SIZE);
+int find_median(unsigned char test[],int len);
 
 /**
  * @brief Prints all the statistical values of given array
@@ -114,10 +114,10 @@ int print_statistics();
  * array.
  *
  * @param test This is the formal parameter name, which takes array as input
- * @param SIZE Size of the given array as input
+ * @param len Size of the given array as input
  *
  * @return --
  */
-int print_array(unsigned char test[],int SIZE);
+int print_array(unsigned char test[],int len);
 
-
+#endif /* __STATS_H__ */
