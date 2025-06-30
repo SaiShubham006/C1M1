@@ -92,12 +92,18 @@ void print_statistics(){
   printf("Median is: %d\n",find_median(test,SIZE));
 }
 
-void print_array(int test[], int len){
+void print_array(unsigned char test[], int len){
   for(int i=0;i<len; i++){
     printf("%d element is %d\n",i+1,test[i]);
   }
 }
 
+print_array(test,SIZE);
+print_statistics();
+printf("After sorting\n:");
+print_array(test,SIZE);
+
 }
 
 /* Add other Implementation File Code Here */
+
